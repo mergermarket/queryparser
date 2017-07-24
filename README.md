@@ -7,13 +7,6 @@ Package queryparser parses a Google-like search string to return a Query object.
 
 The resulting Query object can be used as an interim representation between user input and something like ElasticSearch's Query DSL.
 
-The parser can handle arbitrary combinations of:
-
-*  single word
-*  phrase surrounded by quotes
-*  any of the above combined with boolean operators "OR" and "AND"
-*  any of the above grouped with parentheses
-
 ## Usage
 
 A simple example:
@@ -48,6 +41,13 @@ Query is a simple but hopefully useful model of the intention behind the parsed 
 3. **SubQueries**: zero or more Query objects. So yeah wow like recursive, man.
 
 ## Syntax
+
+The parser can handle arbitrary combinations of:
+
+*  single word
+*  phrase surrounded by quotes
+*  any of the above combined with boolean operators "OR" and "AND"
+*  any of the above grouped with parentheses
 
 | Query component | Example | Intention |
 | --- | --- | --- |
