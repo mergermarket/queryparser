@@ -1,6 +1,6 @@
 ## mergermarket/queryparser
 
-[![GoDoc](https://godoc.org/github.com/johnmuth/queryparser?status.svg)](https://godoc.org/github.com/johnmuth/queryparser) [![Build Status](https://travis-ci.org/johnmuth/queryparser.svg?branch=master)](https://travis-ci.org/johnmuth/queryparser)
+[![GoDoc](https://godoc.org/github.com/mergermarket/queryparser?status.svg)](https://godoc.org/github.com/mergermarket/queryparser) [![Build Status](https://travis-ci.org/mergermarket/queryparser.svg?branch=master)](https://travis-ci.org/mergermarket/queryparser)
 
 
 Package queryparser parses a Google-like search string to return a Query object.
@@ -22,7 +22,7 @@ A simple example:
 package main
 import (
     "fmt"
-    "github.com/johnmuth/queryparser"
+    "github.com/mergermarket/queryparser"
     "strings"
 )
 
