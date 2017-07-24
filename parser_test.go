@@ -2,7 +2,7 @@ package queryparser_test
 
 import (
 	"fmt"
-	"github.com/johnmuth/queryparser"
+	"github.com/mergermarket/queryparser"
 	"reflect"
 	"strings"
 	"testing"

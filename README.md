@@ -1,4 +1,4 @@
-## johnmuth/queryparser
+## mergermarket/queryparser
 
 [![GoDoc](https://godoc.org/github.com/johnmuth/queryparser?status.svg)](https://godoc.org/github.com/johnmuth/queryparser) [![Build Status](https://travis-ci.org/johnmuth/queryparser.svg?branch=master)](https://travis-ci.org/johnmuth/queryparser)
 
